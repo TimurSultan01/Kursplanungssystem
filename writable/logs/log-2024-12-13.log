@@ -1,0 +1,55 @@
+CRITICAL - 2024-12-13 14:01:12 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Dashboard.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-13 14:07:18 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Dashboard.php on line 6.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Dashboard', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('Dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-13 14:30:39 --> Undefined variable $zustand
+in APPPATH\Views\both\menu.php on line 5.
+ 1 APPPATH\Views\both\menu.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zustand', 'C:\\xampp\\htdocs\\Kursplanungssystem\\app\\Views\\both\\menu.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Kursplanungssystem\\app\\Views\\both\\menu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('both/menu', [], true)
+ 5 APPPATH\Controllers\Stundenplan.php(10): view('both/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stundenplan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stundenplan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-13 14:30:41 --> Undefined variable $zustand
+in APPPATH\Views\both\menu.php on line 5.
+ 1 APPPATH\Views\both\menu.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zustand', 'C:\\xampp\\htdocs\\Kursplanungssystem\\app\\Views\\both\\menu.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Kursplanungssystem\\app\\Views\\both\\menu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('both/menu', [], true)
+ 5 APPPATH\Controllers\Stundenplan.php(10): view('both/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stundenplan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stundenplan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-13 14:30:43 --> Undefined variable $zustand
+in APPPATH\Views\both\menu.php on line 5.
+ 1 APPPATH\Views\both\menu.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zustand', 'C:\\xampp\\htdocs\\Kursplanungssystem\\app\\Views\\both\\menu.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Kursplanungssystem\\app\\Views\\both\\menu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('both/menu', [], true)
+ 5 APPPATH\Controllers\Stundenplan.php(10): view('both/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stundenplan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stundenplan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-13 14:31:25 --> Undefined variable $zustand
+in APPPATH\Views\both\menu.php on line 5.
+ 1 APPPATH\Views\both\menu.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zustand', 'C:\\xampp\\htdocs\\Kursplanungssystem\\app\\Views\\both\\menu.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Kursplanungssystem\\app\\Views\\both\\menu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('both/menu', [], true)
+ 5 APPPATH\Controllers\Stundenplan.php(10): view('both/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stundenplan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stundenplan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
