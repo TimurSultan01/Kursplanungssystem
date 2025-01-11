@@ -26,7 +26,7 @@
                         <a href="#" title="Gebärdensprache"><i class="fa-solid fa-hands text-white ms-2"></i></a>
                     </li>
                     <li class="p-2 position-relative">
-                        <a href="#" title="Farbblindheit"><i class="fa-solid fa-palette text-white ms-2"></i></a>
+                        <a href="#" title="Farbblindheit"><i class="fa-solid fa-eye text-white ms-2"></i></a>
                     </li>
                     <li class="p-2 position-relative">
                         <a href="#" title="Sitemap"><i class="fa-solid fa-bezier-curve text-white ms-2"></i></a>

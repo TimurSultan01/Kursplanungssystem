@@ -34,9 +34,9 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <ul>
-                                <li><a href="#">Studiengang A</a></li>
-                                <li><a href="#">Studiengang B</a></li>
-                                <li><a href="#">Studiengang C</a></li>
+                                <li><a href="#">Tagesaktuelle Veranstaltungen</a></li>
+                                <li><a href="#">Veranstaltungen suchen</a></li>
+                                <li><a href="#">Gebäudeplan</a></li>
                             </ul>
                         </div>
                     </div>
@@ -52,7 +52,6 @@
                         <div class="accordion-body">
                             <ul>
                                 <li><a href="#">Studip</a></li>
-                                <li><a href="#">Kursangebote</a></li>
                                 <li><a href="#">ZIMK</a></li>
                             </ul>
                         </div>

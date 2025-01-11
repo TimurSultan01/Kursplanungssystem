@@ -6,7 +6,7 @@ class Dashboard extends BaseController
 {
     public function index($view_type = null)
     {
-        // Setze Standard-View, wenn kein Parameter übergeben wird
+        // Erklärung $view_type
         if ($view_type == '2') {
             $view = 'prof_view';  // View für "prof"
         } elseif ($view_type == '1') {
@@ -24,11 +24,12 @@ class Dashboard extends BaseController
         echo view('templates/footer');
     }
 
-    public function alt($view_type = 0)
+    public function alt($view_type = null)
     {
         $data['zustand'] = $view_type;
+        $data['title'] = 'Startseite';
 
-        echo view('templates/head');
+        echo view('templates/head', $data);
         echo view('templates/menu', $data);
         echo view('templates/startpage_alt', $data);
         echo view('templates/footer'); 

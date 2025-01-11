@@ -10,20 +10,20 @@
                     <div class="card-body">
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#" class="text-decoration-none text-dark">
-                                    Mathe 101
+                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>" class="text-decoration-none text-dark">
+                                    Lineare Algebra
                                 </a>
                                 <span class="badge bg-primary">01.03.2024</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#" class="text-decoration-none text-dark">
-                                    Informatik 202
+                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>" class="text-decoration-none text-dark">
+                                    Datenbanksysteme
                                 </a>
                                 <span class="badge bg-primary">15.03.2024</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#" class="text-decoration-none text-dark">
-                                    Geschichte 303
+                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>" class="text-decoration-none text-dark">
+                                    Elementare Logik
                                 </a>
                                 <span class="badge bg-primary">22.03.2024</span>
                             </li>
@@ -39,8 +39,8 @@
                         <h5>Nächste Veranstaltung</h5>
                     </div>
                     <div class="card-body">
-                        <p>Die nächste Veranstaltung ist ein Tutorium für Informatik 202, das am 03.03.2024 in Raum F55 um 12:00 Uhr stattfindet.</p>
-                        <button class="btn btn-success">Zur Veranstaltung</button>
+                        <p>Die nächste Veranstaltung ist ein Tutorium für Diskrete Strukturen, das am 03.03.2024 in Raum F55 um 12:00 Uhr stattfindet.</p>
+                        <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>" class="btn btn-success">Zur Veranstaltung</a>
                     </div>
                 </div>
             </div>
