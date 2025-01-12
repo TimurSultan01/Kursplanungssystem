@@ -32,7 +32,7 @@
             <div class="row mb-3">
                 <div class="col-md-6">
                     <p><strong>Dozent:</strong> Prof. Dr. Weyers
-                    <a href="#" class="ms-2" title="Professorprofil anzeigen">
+                    <a href="<?= base_url('Profil/index/'. '2'); ?>" class="ms-2" title="Professorprofil anzeigen">
                             <i class="fa-solid fa-address-card text-primary"></i> </a> 
                     </p>
                 </div>
@@ -80,7 +80,9 @@
                         <?php endif; ?>
 
                         <!-- Vorschau-Button -->
-                        <a href="<?= base_url('Stundenplan/vorschau/' . $zustand); ?>" class="btn btn-info">Vorschau</a>
+                        <?php if ($angemeldet == 1): ?>
+                            <a href="<?= base_url('Stundenplan/vorschau/' . $zustand); ?>" class="btn btn-info">Vorschau</a>
+                        <?php endif; ?>
                     </div>
                 </div>
 

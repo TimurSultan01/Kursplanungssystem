@@ -16,7 +16,11 @@
                             <a class="nav-link text-white" href="<?= base_url('Stundenplan/index/' . $zustand); ?>">Stundenplan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white"  href="#"><?php echo $zustand == 1 ? 'Veranstaltungsplaner' : 'Veranstaltungsverwaltung'; ?></a>
+                            <?php if ($zustand == 1): ?>
+                                <a class="nav-link text-white"  href="<?= base_url('Veranstaltungsplaner/index/' . $zustand); ?>"> Veranstaltungsplaner</a>
+                            <?php elseif ($zustand == 2): ?>
+                                <a class="nav-link text-white"  href="<?= base_url('Veranstaltungsverwaltung/index/' . $zustand); ?>"> Veranstaltungsverwaltung</a>
+                            <?php endif; ?>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">Studip</a>
@@ -31,7 +35,7 @@
                             </form>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#" title="Profil"><i class="fa-solid fa-user"></i></a>
+                            <a class="nav-link text-white" href="<?= base_url('Profil/index/' . $zustand); ?>" title="Profil"><i class="fa-solid fa-user"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#" title="Benachrichtigungen"><i class="fa-solid fa-bell"></i></a>

@@ -1,4 +1,4 @@
-g<div class="container mt-5">
+<div class="container mt-5">
     <div class="card">
         <div class="card-header bg-primary text-white">
             <h3>Veranstaltungsdetails bearbeiten</h3>
@@ -68,6 +68,7 @@ g<div class="container mt-5">
                 <div class="card-footer">
                     <div class="d-flex justify-content-between">
                         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#speichernModal">Speichern</button>
+                        <a href="<?= base_url('Veranstaltung/index/' . $zustand); ?>" class="btn btn-secondary">Abbrechen</a>
                     </div>
                 </div>
             </form>

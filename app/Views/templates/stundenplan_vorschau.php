@@ -20,8 +20,15 @@
                 <tr>
                     <td><strong><?= $hour ?>:00 - <?= $hour + 2 ?>:00</strong></td>
                     <td>
+                        <?php if ($hour == 12): ?>
+                            <div class="bg-info text-white p-2 rounded">
+                                <span class="badge bg-info">V</span>
+                                <strong>Diskrete Strukturen</strong><br>
+                                Raum: F55<br>
+                                Prof. Dr. Weyers<br>
+                            </div>
+                        <?php endif; ?>
                         <?php if ($hour == 14): ?>
-                            <a href="<?= base_url('Veranstaltung/index/' . $zustand); ?>" class="text-decoration-none" title="Veranstaltungdetails anzeigen">
                                 <div class="bg-primary text-white p-2 rounded">
                                     <span class="badge bg-primary">VL</span>
                                     <strong>Datenbanksysteme</strong><br>
@@ -33,7 +40,6 @@
                     </td>
                     <td>
                         <?php if ($hour == 8): ?>
-                            <a href="<?= base_url('Veranstaltung/index/' . $zustand); ?>" class="text-decoration-none" title="Veranstaltungdetails anzeigen">
                                 <div class="bg-success text-white p-2 rounded">
                                     <span class="badge bg-success">SE</span>
                                     <strong>Proseminar</strong><br>
@@ -46,7 +52,6 @@
                     <td></td>
                     <td>
                         <?php if ($hour == 16): ?>
-                            <a href="<?= base_url('Veranstaltung/index/' . $zustand); ?>" class="text-decoration-none" title="Veranstaltungdetails anzeigen">
                                 <div class="bg-danger text-white p-2 rounded">
                                     <span class="badge bg-danger">PR</span>
                                     <strong>Datenbanksysteme</strong><br>
@@ -64,25 +69,30 @@
         </table>
     </div>
 
+    <div class="mt-3 d-flex justify-content-between align-items-center mb-4">
     <!-- Legende -->
-    <div class="mt-4">
-        <h4>Legende:</h4>
-        <ul class="list-inline">
-            <li class="list-inline-item">
-                <span class="badge bg-primary">VL</span> Vorlesung
-            </li>
-            <li class="list-inline-item">
-                <span class="badge bg-success">Se</span> Seminar
-            </li>
-            <li class="list-inline-item">
-                <span class="badge bg-danger">PR</span> Prüfung
-            </li>
-            <li class="list-inline-item">
-                <span class="badge bg-warning">UE</span> Übung
-            </li>
-            <li class="list-inline-item">
-                <span class="badge bg-info">V</span> Vorschau
-            </li>
-        </ul>
+        <div>
+            <h4>Legende:</h4>
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                    <span class="badge bg-primary">VL</span> Vorlesung
+                </li>
+                <li class="list-inline-item">
+                    <span class="badge bg-success">SE</span> Seminar
+                </li>
+                <li class="list-inline-item">
+                    <span class="badge bg-danger">PR</span> Prüfung
+                </li>
+                <li class="list-inline-item">
+                    <span class="badge bg-warning">UE</span> Übung
+                </li>
+                <li class="list-inline-item">
+                    <span class="badge bg-info">V</span> Vorschau
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a href="<?= base_url('Veranstaltung/index/' . $zustand); ?>" class="btn btn-info">Vorschau beenden</a>
+        </div>
     </div>
 </div>
