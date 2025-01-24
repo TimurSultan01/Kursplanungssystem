@@ -38,7 +38,7 @@
         <tbody>
             <!-- Beispielhafte Veranstaltungen -->
             <tr>
-                <td>Diskrete Strukturen</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Diskrete Strukturen</a></td>
                 <td>2</td>
                 <td>Vorlesung</td>
                 <td>F55</td>
@@ -46,7 +46,7 @@
                 <td>Prof. Dr. Benjamin Weyers</td>
             </tr>
             <tr>
-                <td>Lineare Algebra</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Lineare Algebra</a></td>
                 <td>3</td>
                 <td>Vorlesung</td>
                 <td>HS12</td>
@@ -54,7 +54,7 @@
                 <td>Prof. Dr. Maria Müller</td>
             </tr>
             <tr>
-                <td>Datenbanksysteme</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Datenbanksysteme</a></td>
                 <td>2</td>
                 <td>Vorlesung</td>
                 <td>F42</td>
@@ -62,7 +62,7 @@
                 <td>Prof. Dr. Markus Schmidt</td>
             </tr>
             <tr>
-                <td>Theoretische Informatik</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Theoretische Informatik</a></td>
                 <td>2</td>
                 <td>Vorlesung</td>
                 <td>F53</td>
@@ -70,7 +70,7 @@
                 <td>Prof. Dr. Anna Meier</td>
             </tr>
             <tr>
-                <td>Software Engineering</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Software Engineering</a></td>
                 <td>3</td>
                 <td>Vorlesung</td>
                 <td>F12</td>
@@ -78,7 +78,7 @@
                 <td>Prof. Dr. Peter Schwarz</td>
             </tr>
             <tr>
-                <td>Mathematik für Informatiker</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Mathematik für Informatiker</a></td>
                 <td>3</td>
                 <td>Seminar</td>
                 <td>F11</td>
@@ -153,7 +153,7 @@
         <tbody>
             <!-- Beispielhafte Veranstaltungen -->
             <tr>
-                <td>Diskrete Strukturen</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Diskrete Strukturen</a></td>
                 <td>2</td>
                 <td>Vorlesung</td>
                 <td>F55</td>
@@ -161,7 +161,7 @@
                 <td>Prof. Dr. Benjamin Weyers</td>
             </tr>
             <tr>
-                <td>Lineare Algebra</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Lineare Algebra</a></td>
                 <td>3</td>
                 <td>Seminar</td>
                 <td>HS12</td>
@@ -169,7 +169,7 @@
                 <td>Prof. Dr. Maria Müller</td>
             </tr>
             <tr>
-                <td>Datenbanksysteme</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Datenbanksysteme</a></td>
                 <td>2</td>
                 <td>Vorlesung</td>
                 <td>F42</td>
@@ -177,7 +177,7 @@
                 <td>Prof. Dr. Markus Schmidt</td>
             </tr>
             <tr>
-                <td>Theoretische Informatik</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Theoretische Informatik</a></td>
                 <td>2</td>
                 <td>Seminar</td>
                 <td>F53</td>
@@ -185,7 +185,7 @@
                 <td>Prof. Dr. Anna Meier</td>
             </tr>
             <tr>
-                <td>Software Engineering</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Software Engineering</a></td>
                 <td>3</td>
                 <td>Übung</td>
                 <td>F12</td>
@@ -193,7 +193,7 @@
                 <td>Prof. Dr. Peter Schwarz</td>
             </tr>
             <tr>
-                <td>Mathematik für Informatiker</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Mathematik für Informatiker</a></td>
                 <td>3</td>
                 <td>Prüfung</td>
                 <td>F11</td>
@@ -201,7 +201,7 @@
                 <td>Prof. Dr. Maria Müller</td>
             </tr>
             <tr>
-                <td>Programmierung 1</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Programmierung 1</a></td>
                 <td>4</td>
                 <td>Übung</td>
                 <td>F44</td>
@@ -209,7 +209,7 @@
                 <td>Prof. Dr. Benjamin Weyers</td>
             </tr>
             <tr>
-                <td>Netzwerktechnologien</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Netzwerktechnologien</a></td>
                 <td>2</td>
                 <td>Prüfung</td>
                 <td>HS2</td>
@@ -217,7 +217,7 @@
                 <td>Prof. Dr. Markus Schmidt</td>
             </tr>
             <tr>
-                <td>Künstliche Intelligenz</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Künstliche Intelligenz</a></td>
                 <td>3</td>
                 <td>Übung</td>
                 <td>F45</td>
@@ -225,7 +225,7 @@
                 <td>Prof. Dr. Anna Meier</td>
             </tr>
             <tr>
-                <td>Computergrafik</td>
+                <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>">Computergrafik</a></td>
                 <td>2</td>
                 <td>Prüfung</td>
                 <td>HS11</td>
@@ -259,7 +259,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Diskrete Strukturen</td>
+                        <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/0'); ?>">Diskrete Strukturen</a></td>
                         <td>2</td>
                         <td>Vorlesung</td>
                         <td>F55</td>
@@ -267,7 +267,7 @@
                         <td>Prof. Dr. Benjamin Weyers</td>
                     </tr>
                     <tr>
-                        <td>Lineare Algebra</td>
+                        <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/0'); ?>">Lineare Algebra</a></td>
                         <td>3</td>
                         <td>Prüfung</td>
                         <td>HS12</td>
@@ -275,7 +275,7 @@
                         <td>Prof. Dr. Maria Müller</td>
                     </tr>
                     <tr>
-                        <td>Datenbanksysteme</td>
+                        <td><a title="Veranstaltungdetails anzeigen" class="text-decoration-none text-dark" href="<?= base_url('Veranstaltung/index/' . $zustand . '/0'); ?>">Datenbanksysteme</a></td>
                         <td>2</td>
                         <td>Seminar</td>
                         <td>F42</td>

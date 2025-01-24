@@ -10,19 +10,19 @@
                     <div class="card-body">
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>" class="text-decoration-none text-dark">
+                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/0'); ?>" class="text-decoration-none text-dark">
                                     Lineare Algebra
                                 </a>
                                 <span class="badge bg-primary">01.03.2024</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>" class="text-decoration-none text-dark">
+                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/0'); ?>" class="text-decoration-none text-dark">
                                     Datenbanksysteme
                                 </a>
                                 <span class="badge bg-primary">15.03.2024</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>" class="text-decoration-none text-dark">
+                                <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/0'); ?>" class="text-decoration-none text-dark">
                                     Elementare Logik
                                 </a>
                                 <span class="badge bg-primary">22.03.2024</span>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="card-body">
                         <p>Die nächste Veranstaltung ist ein Tutorium für Diskrete Strukturen, das am 03.03.2024 in Raum F55 um 12:00 Uhr stattfindet.</p>
-                        <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/1'); ?>" class="btn btn-success">Zur Veranstaltung</a>
+                        <a href="<?= base_url('Veranstaltung/index/' . $zustand . '/0'); ?>" class="btn btn-success">Zur Veranstaltung</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,6 @@
         <!-- Zusätzliche Inhalte unter den Karten -->
         <div class="row">
             <div class="col-md-12">
-                <!-- Beispiel für ein weiteres Element, das später angepasst werden kann -->
                 <div class="card">
                     <div class="card-header">
                         <h5>Neuigkeiten und Updates</h5>
@@ -96,7 +95,7 @@
             <!-- Rechte Spalte: Bewerbungsprozess und Info-Texte -->
             <div class="col-md-6">
                 <div class="button-container mb-3">
-                    <a href="#" class="btn btn-success w-100">Bewerbungsprozess starten</a>
+                    <a href="<?= base_url('Immatrikulation/index'); ?>" class="btn btn-success w-100">Bewerbungsprozess starten</a>
                 </div>
 
                 <div class="card mt-4">

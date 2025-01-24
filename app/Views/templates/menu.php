@@ -41,7 +41,7 @@
                             <a class="nav-link text-white" href="#" title="Benachrichtigungen"><i class="fa-solid fa-bell"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#" title="Gebäudeplan"><i class="fa-solid fa-building-columns"></i></a>
+                            <a class="nav-link text-white" href="<?= base_url('Gebauedeplan/index/' . $zustand); ?>" title="Gebäudeplan"><i class="fa-solid fa-building-columns"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#" title="Abmeldung" onclick="showLogoutModal(event)">

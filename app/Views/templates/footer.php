@@ -11,7 +11,7 @@
                         <a class="nav-link text-white" href="#">Datenschutz</a>
                     </li>
                     <li class="p-2">
-                        <a class="nav-link text-white" href="#">Barrierefreiheit</a>
+                        <a class="nav-link text-white" href="<?= base_url('Feedback/index/' . $zustand); ?>">Feedback</a>
                     </li>
                 </ul>
                 <!-- Rechte Seite -->

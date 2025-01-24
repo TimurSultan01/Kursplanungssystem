@@ -37,8 +37,8 @@
                     </p>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
-                    <p><strong>Raum:</strong> F 55
-                        <a href="#" class="ms-2" title="Raumdetails anzeigen">
+                    <p><strong>Raum:</strong> A7
+                        <a href="<?= base_url('Gebauedeplan/index/' . $zustand . '/1'); ?>" class="ms-2" title="Raumdetails anzeigen">
                             <i class="fa-solid fa-building-columns text-primary"></i> </a>
                     </p>
                 </div>

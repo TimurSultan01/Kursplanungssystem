@@ -1,6 +1,14 @@
-Noch zu erledigen: 
-Veranstaltungsplaner
-Bewerbungs/Immatrikulationsprozess mit darauffolgenden Tutorial
-Gebäudeplan (eine Variante mit Pfeil auf F 55)
+Tutorial fehlt noch
 
-Zum Schluss: Links der bisherigen views anpassen (Platzhalter # ersetzen)
+Veränderte Dateien: app/Config/App.php
+app/config/Routes.php
+template ordner sind views drin
+.htaccess in root verzeichnis
+in public jpgs 
+
+Website öffnen: localhost/Kursplanungssystem/Dashboard/index/x 
+x = 0 für nicht angemeldet
+x = 1 für Studentenansicht
+x = 2 für Professoransicht
+
+Link zum Projekt auf Github: https://github.com/TimurSultan01/Kursplanungssystem

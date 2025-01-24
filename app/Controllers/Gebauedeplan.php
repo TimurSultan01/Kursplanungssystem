@@ -4,20 +4,15 @@ namespace App\Controllers;
 
 class Gebauedeplan extends BaseController
 {
-    public function index($view_type = null, $bearbeiten = null, $speichern = null)
+    public function index($view_type = null, $building_type = 0)
     {
-        if ($view_type != 1 && $view_type != 2) {
-            return redirect()->to(base_url('dashboard/index/0'));
-        }
-
         $data['zustand'] = $view_type;
-        $data['bearbeiten'] = $bearbeiten;
-        $data['speichern'] = $speichern;
-        $data['title'] = 'Profil';
+        $data['building'] = $building_type;
+        $data['title'] = 'Gebäudeplan';
 
         echo view('templates/head', $data);
         echo view('templates/menu', $data);
-        echo view('templates/profil', $data);
+        echo view('templates/gebaeudeplan', $data);
         echo view('templates/footer');
     }
 }
