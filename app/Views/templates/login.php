@@ -1,4 +1,8 @@
 <div class="container mt-5">
+    <div id="infoBox" class="alert alert-info alert-dismissible fade show" role="alert">
+        <strong>Hinweis!</strong> Nach erfolgreicher Anmeldung folgt eine kurze Einführung in das System
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">

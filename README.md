@@ -1,5 +1,3 @@
-Tutorial fehlt noch
-
 Veränderte Dateien: app/Config/App.php
 app/config/Routes.php
 template ordner sind views drin

@@ -11,7 +11,7 @@ class Tutorial extends BaseController
         }
 
         $data['zustand'] = $view_type;
-        $data['title'] = 'Startseite';
+        $data['title'] = 'Tutorial';
         echo view('templates/tutorial', $data);
     }
 }
